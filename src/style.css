@@ -1,0 +1,45 @@
+@import "tailwindcss";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+nav::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 4px;
+  height: 30px;
+  background-color: black;
+}
+nav::after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 4px;
+  height: 30px;
+  background-color: black;
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  background-color: lightskyblue;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: 3px solid black;
+}
+input:focus,
+textarea:focus {
+  outline: 3px solid white;
+}
+.sideMenu {
+  position: absolute;
+  left: 0;
+  width: 200px;
+}
