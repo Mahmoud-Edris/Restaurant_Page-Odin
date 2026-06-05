@@ -39,7 +39,9 @@ textarea:focus {
   outline: 3px solid white;
 }
 .sideMenu {
-  position: absolute;
+  position: fixed;
   left: 0;
   width: 200px;
+  min-height: 100vh;
+  z-index: 101;
 }

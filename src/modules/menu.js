@@ -70,7 +70,7 @@ export function menuPage() {
     dish.append(dishName, dishInfo, price);
     container.append(dish);
     dish.classList.add(
-      "bg-sky-300",
+      "bg-slate-400",
       "rounded-b",
       "lg:w-2/5",
       "md:w-2/5",
